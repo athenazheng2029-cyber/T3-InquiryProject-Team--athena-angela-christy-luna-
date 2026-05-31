@@ -1,32 +1,33 @@
-header {
+
+.header {
     display: flex;
     width: 100vw;
-    height: 40vh;
-}
-.header{
-    display: flex;
-    width: 100vw;
-    height: 35vh;
-    justify-content: space-between;
+    height:10vh;
+    justify-content: space-around;
 }
 
-.section-1 {
+.search-bar { 
+    display: flex;
+    height: 4vh;
+    justify-content:flex-end;
+}
+
+main {
     display: flex;
     width: 100vw;
-    height: 40vh;
+    height: 86vh;
+}
+.section-1 {
+    display: flex;
+    width: 10vw;
+    height: 30vh;
     flex-direction: column;
 }
 
-.search-bar {
+.section-2 {
     display: flex;
-    width: 100vw;
-    height: 20vh;
-    justify-content: flex-end;
-}
-
-.images-section {
-    display: flex;
-    width: 100vw;
-    height: 20vh;
-    justify-content: center;
+    width: 30vw;
+    height: 60vh;
+    flex-direction: column;
+    background-color:aliceblue;
 }
