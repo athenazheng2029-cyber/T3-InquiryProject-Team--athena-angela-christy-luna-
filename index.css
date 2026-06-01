@@ -1,4 +1,19 @@
-.header {
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+        flex-direction: column;
+    
+}
+
+.images {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
