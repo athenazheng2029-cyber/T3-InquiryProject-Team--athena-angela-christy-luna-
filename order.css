@@ -1,9 +1,16 @@
 
 .header {
     display: flex;
-    width: 100vw;
+    width: 90vw;
     height:10vh;
     justify-content: space-around;
+}
+.nav-bar {
+    display: flex;
+    width: 90vw;
+    height: 10vh;
+    justify-content: space-around;
+    color:red;
 }
 
 .search-bar { 
@@ -26,8 +33,15 @@ main {
 
 .section-2 {
     display: flex;
-    width: 30vw;
-    height: 60vh;
+    width: 25vw;
+    height: 50vh;
     flex-direction: column;
-    background-color:aliceblue;
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    flex-direction: column;
+    justify-content: space-around;
 }
