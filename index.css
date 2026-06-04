@@ -15,5 +15,55 @@
 .images {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+
+}
+.logo {
+    width: 60%;
+    height: 80%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.image1 {
+    width: 25%;
+    height: 65%;
+
+}
+
+.image2 {
+    width: 33%;
+    height: 65%;
+
+}
+
+.image3 {
+    width: 37%;
+    height: 65%;
+
+}
+
+.image4 {
+    width: 37%;
+    height: 65%;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.image0 {
+   width: 20%;
+    height: 30%;
+
+}
+
+.hero {
+    text-align: center;
 }
