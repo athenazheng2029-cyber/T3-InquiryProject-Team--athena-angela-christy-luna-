@@ -60,3 +60,10 @@
     height: 50%;
 }
 
+.footer {
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    flex-direction: column;
+    background-color: rgb(245, 176, 176);
+}
